@@ -4,7 +4,6 @@ import time
 import win32api
 import win32con
 #竞技场
-#time.sleep(5)
 win32api.keybd_event(18,0,0,0)  #alt键位码是18
 win32api.keybd_event(9,0,0,0)  #tab键位码是9
 time.sleep(0.5)
@@ -21,7 +20,7 @@ def mousemove_click(x,y):
 
 mousemove_click(771, 203)  # 活动的坐标
 
-mousemove_click(1363, 404)  # 竞技场"前往"的坐标
+mousemove_click(1358,504)  # 竞技场"前往"的坐标
 
 time.sleep(20)#从天墉城城中心/其他地图走到竞技使者花费20s
 
@@ -34,9 +33,9 @@ for i in range(1,6,1):
 
     mousemove_click(1082,578) #确认
 
-    mousemove_click(1530, 794)  # 战斗自动
+    mousemove_click(1528, 796)  # 战斗自动
 
-    time.sleep(60)#挑战试炼童子预计120s
+    time.sleep(60)#挑战试炼童子预计60s
 
 
 
